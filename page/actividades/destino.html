@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=320, initial-scale=1">
+	<meta name="author" content="Fouad Hassidou"/>
+	<meta name="description" content="Formularis"/>
+	<title>FORMULARIS HTML I CSS</title>
+	<link rel="icon" href="img/logo.png" type="image/png"/>
+	<link rel="stylesheet" href="C:/Users/Fouad/OneDrive/Documentos/Fouad/index/css/destino/fonts.css"/>
+</head>
+<body>
+	<header>
+		<a href="https://agora.xtec.cat/ies-sabadell/" target="_blank"><img src="C:/Users/Fouad/OneDrive/Documentos/Fouad/index/image/destino/logo.png" title="INSTITUTO SABADELL" /></a>
+		<h1>FORMULARIS HTML I CSS</h1>
+	</header>
+	<article>
+		<h2>Alta Usuari</h2>
+		<form action="mailto:hassidouf@gmail.com?Subject=Alta%20Usuari%202020/21" method="post" enctype="text/plain">
+			<fieldset>
+				<legend>Dades Usuari:</legend>
+					<p>
+					<label>Usuari:</label>
+					<input type="text" name="usuari" placeholder="Nom d'usuari" maxlength="20" required />
+					</p>
+					<p>
+					<label>Contrasenya:</label>
+					<input type="password" placeholder="*******************" name="contrasenya" maxlength="16" required />
+					</p>
+					<p>
+					<input type="checkbox" name="condicions" value="Accepto" title="Accepta els nostres termes" required checked /><a>Accepto les condicions d'ús</a>
+					</p>
+					<button type="submit" value="Enviar Alta" >Enviar Alta</button>
+					<button type="reset" value="Borrar Datos" >Esborrar</button>
+			</fieldset>
+		</form>
+		<h2>Destí preferit</h2>
+		<form action="mailto:hassidouf@gmail.com?Subject=Destí%20Preferit%202020/21" method="post" enctype="text/plain">
+			<fieldset>
+				<legend>Indica les teves preferències</legend>
+					<p>
+					<label>Quin és el teu destí preferit a Europa?</label><br/>
+					<input type="radio" name="Desti" value="paris" checked /><a>París</a><br/>
+					<input type="radio" name="Desti" value="londres" /><a>Londres</a><br/>
+					<input type="radio" name="Desti" value="roma" /><a>Roma</a><br/>
+					</p>
+					<p>
+					<label>Per què?</label>
+					<input type="text" placeholder="Escriu tres raons" title="Escriu en qualsevol idioma" name="Perque" />
+					</p>
+					<p>
+					<label>Pot anar-hi amb:</label>
+					</p>
+				<fieldset>
+					<legend>Transport:</legend>
+						<p>
+						<input type="checkbox" name="Transport" value="Bus" checked /><a>Bus 🚌</a><br/>
+						<input type="checkbox" name="Transport" value="Avio" /><a>Avió ✈</a><br/>
+						<input type="checkbox" name="Transport" value="Cotxe" checked /><a>Cotxe 🚗</a>
+						</p>
+				</fieldset>
+					<p>
+					<textarea name="comentaris" maxlength="40" cols="50" rows="5" placeholder="Escriu aquí els teus comentaris" ></textarea><br/><br/>
+					</p>
+					<p>
+					<a>Seleciona el nombre de viatgers:</a>
+					<select name="Viatgers">
+						<option value="Noseleciona">Seleciona</option>
+						<option value="Un adult">Un adult</option>
+						<option value="Dos adults">Dos adults</option>
+						<option value="Un adult i un nen">Un adult i un nen</option>
+						<option value="Dos adults i més nens">Dos adults i més nens</option>
+						<option value="Altres...">Altres...</option>
+					</select>
+					</p>
+					<button type="submit" value="Enviar" >Enviar Información</button>
+					<button type="reset" value="Borrar" >Borar Información</button>
+			</fieldset>
+		</form>
+	</article>
+	<footer>
+		&copy; Todos los derechos reservados<address>AUTOR: Fouad Hassidou	ESTUDIOS: Instituto Sabadell	PROFESSOR/A: Isabel De Andrés</address>
+	</footer>
+</body>
+</html>

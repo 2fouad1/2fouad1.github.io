@@ -1,0 +1,87 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+body{background-color:#f6f6f6;}
+
+
+.mantenimiento{
+	width:700px;
+	height:400px;
+	padding:32px;
+	border:1px solid #000;
+	border-radius:5px;
+	display:inline-grid;
+	margin-top:-200px;
+	margin-left:-300px;
+	background-color:#fff;
+	position:fixed;
+	top:50%;
+	left:50%;
+}
+
+.mantenimiento h1, .mantenimiento h2, .mantenimiento p{
+	font-family:"noto sans", sans-serif;
+}
+
+.mantenimiento h1{
+	font-size:3em;
+	text-align:center;
+	padding:16px;
+}
+
+p{
+	text-align:center;
+}
+
+.mantenimiento h2{
+	font-size:2em;
+	font-style:italic;
+	padding-left:100px;
+}
+
+.button {
+    padding: 14px 22px;
+    text-decoration: none;
+    font-size: 22px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.button {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #412E97;
+}
+
+.button:hover {
+    background-color: #412E97;
+    color: white;
+}
+.redess{
+	width:28px;
+	height:28px;
+}
+
+.redes {
+	display: inline-block;
+	width: 40px; 
+	height: 40px;
+	margin: 2px 0px; 
+	padding: 0px; 
+	float: center;
+	margin-right: 5px; 
+	cursor: pointer;
+	
+}
+.redes:hover{
+	opacity: 0.6;
+}
+.pinfo{
+	float: right;
+}
+
+
+
+
